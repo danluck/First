@@ -8,6 +8,6 @@ def test_increment():
     assert inc_dec.increment(0xFFFFFFFFFFFFFFFE) == 0xFFFFFFFFFFFFFFFF
     assert inc_dec.increment(0xFFFFFFFFFFFFFFFF) == 18446744073709551616
 
-def test_decrement():
+def test_decrement2():
     assert inc_dec.decrement(3) == 2
     assert inc_dec.decrement(-3) == -4
